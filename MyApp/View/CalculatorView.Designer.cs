@@ -55,6 +55,7 @@
             label1.Size = new Size(378, 33);
             label1.TabIndex = 1;
             label1.Text = "Basic Arithmetic Operation";
+            label1.Click += label1_Click;
             // 
             // BtnSub
             // 

@@ -55,5 +55,29 @@ namespace MyApp.Controller
                 throw new Exception("Error in Division: " + ex.Message);
             }
         }
+
+        public double FahrenheitToCelsius(double fahrenheit)
+        {
+            try
+            {
+                return (fahrenheit - 32) * 5 / 9;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Conversion Error: " + ex.Message);
+            }
+        }
+
+        public double CelsiusToFahrenheit(double celsius)
+        {
+            try
+            {
+                return (celsius * 9 / 5) + 32;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Conversion Error: " + ex.Message);
+            }
+        }
     }
 }

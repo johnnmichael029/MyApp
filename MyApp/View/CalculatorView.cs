@@ -57,5 +57,10 @@ namespace MyApp.View
             this.DockPanel.Tag = form;
             form.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
